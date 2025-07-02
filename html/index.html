@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/projects.css">
+    <link rel="stylesheet" href="../css/contact.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about" class="about-flex">
+            <div class="about-info">
+                <h2>Jezreil Lumbera</h2>
+                <p>Aspiring software engineer passionate about creative solutions and building things that matter.</p>
+                <a href="#contact" class="contact-btn">Contact Me</a>
+            </div>
+            <div class="about-photo">
+                <img src="../img/profile.png" alt="My Photo" style="max-width: 380px; width: 100%; border-radius: 8px;">
+            </div>
+        </section>
+        <section id="projects">
+            <div class="projects-header">
+                <h2>Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="" alt="Project One">
+                    <h3>Project One</h3>
+                    <p>A simple website</p>
+                </div>
+                <div class="project-card">
+                    <img src="" alt="Project Two">
+                    <h3>Project Two</h3>
+                    <p>A JavaScript game</p>
+                </div>
+                <div class="project-card">
+                    <img src="" alt="Project Three">
+                    <h3>Project Three</h3>
+                    <p>Portfolio site</p>
+                </div>
+                <div class="project-card">
+                    <img src="" alt="Project Four">
+                    <h3>Project Four</h3>
+                    <p>React dashboard</p>
+                </div>
+                <div class="project-card">
+                    <img src="" alt="Project Five">
+                    <h3>Project Five</h3>
+                    <p>API integration</p>
+                </div>
+                <div class="project-card">
+                    <img src="" alt="Project Six">
+                    <h3>Project Six</h3>
+                    <p>Mobile app</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contact-header">
+                <h2>Contact</h2>
+                <p class="contact-lead">If you would like to get in touch, please use the form or the contact details below.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <ul class="contact-list">
+                        <li><span class="contact-icon"><img src="../img/location.svg" alt="Address" /></span>123 Main St, City, Country</li>
+                        <li><span class="contact-icon"><img src="../img/phone.svg" alt="Phone" /></span>+1 234 567 8901</li>
+                        <li><span class="contact-icon"><img src="../img/email.svg" alt="Email" /></span><a href="mailto:your.email@example.com">your.email@example.com</a></li>
+                        <li><span class="contact-icon"><img src="../img/linkedin.svg" alt="LinkedIn" /></span><a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></li>
+                    </ul>
+                </div>
+                <form class="contact-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 My Portfolio</p>
+    </footer>
+    <script src="../js/script.js"></script>
+    <script src="../js/projects-animate.js"></script>
+</body>
+</html>
