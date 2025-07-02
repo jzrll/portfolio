@@ -146,9 +146,14 @@ section#contact {
     filter: brightness(0) invert(1) drop-shadow(0 0 2px #73e4af);
 }
 .contact-list a {
-    color: #3fa7d6;
+    color: #e6f1ff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+.contact-list a:hover {
+    color: #73e4af;
     text-decoration: underline;
-    word-break: break-all;
 }
 
 /* Contact Lead Paragraph */
