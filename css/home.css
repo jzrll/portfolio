@@ -139,6 +139,34 @@ section#home {
     box-shadow: 0 4px 24px #1976d233;
 }
 
+.download-btns {
+  display: flex;
+  gap: 16px;
+  margin: 18px 0 0 0;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #232625;
+  background: linear-gradient(90deg, #73e4af 0%, #0d945c 100%);
+  border: none;
+  border-radius: 32px;
+  box-shadow: 0 2px 12px #0002;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+
+.download-btn:hover {
+  background: linear-gradient(90deg, #c1e4cb 0%, #73e4af 100%);
+  color: #232625;
+  box-shadow: 0 4px 24px #1976d233;
+}
+
 @media (max-width: 900px) {
     .home-photo {
         flex: 0 0 300px;
