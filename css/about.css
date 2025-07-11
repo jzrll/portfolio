@@ -3,7 +3,7 @@
     width: 100vw;
     max-width: 100vw;
     background: linear-gradient(120deg, #657770 0%, #1f1f1f 100%);
-    padding: 60px 0 40px 0;
+    padding: 60px 0px 40px 0px;
     display: flex;
     width: 100vw;
     max-width: 100vw;
@@ -101,7 +101,7 @@
 }
 .tech-icons.tech-icons-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-auto-rows: 80px;
   max-width: 420px;
   margin-left: auto;
