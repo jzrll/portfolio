@@ -1,0 +1,140 @@
+/* Practicum Experience Section Styles */
+.practicum-section {
+  background: linear-gradient(120deg, #242f2a 0%, #181b1a 100%);
+  padding: 60px 8vw 56px 8vw;
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  box-sizing: border-box;
+  color: #e6f1ff;
+}
+.practicum-header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+.practicum-header h2 {
+  font-size: 2.3rem;
+  color: #73e4af;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  margin-bottom: 8px;
+  text-shadow: 0 2px 16px #000a;
+}
+.practicum-lead {
+  font-size: 1.13rem;
+  color: #b3e6d6;
+  margin: 10px 0 0 0;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+.practicum-content {
+  max-width: 900px;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.04);
+  border-radius: 16px;
+  box-shadow: 0 2px 16px #0001;
+  padding: 40px 32px;
+}
+.practicum-summary h3 {
+  color: #73e4af;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+.practicum-summary p {
+  color: #b3e6d6;
+  font-size: 1.08rem;
+  margin-bottom: 18px;
+}
+.practicum-highlights {
+  list-style: disc inside;
+  color: #e6f1ff;
+  font-size: 1.05rem;
+  margin: 0 0 0 12px;
+  padding: 0 0 0 12px;
+  line-height: 1.7;
+}
+.practicum-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+.practicum-item h3 {
+  color: #73e4af;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(115,228,175,0.08);
+  padding: 8px 18px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #0002;
+  transition: background 0.2s;
+}
+.practicum-item h3:hover {
+  background: rgba(115,228,175,0.18);
+}
+.practicum-icon {
+  font-size: 1.3em;
+  display: flex;
+  align-items: center;
+}
+.practicum-timeline {
+  position: relative;
+  padding-left: 38px;
+  margin-top: 18px;
+}
+.practicum-timeline-line {
+  position: absolute;
+  left: 18px;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: linear-gradient(180deg, #73e4af 0%, #232526 100%);
+  border-radius: 2px;
+  z-index: 0;
+}
+.practicum-timeline-item {
+  position: relative;
+  margin-bottom: 32px;
+  z-index: 1;
+}
+.practicum-timeline-dot {
+  position: absolute;
+  left: -28px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  background: #73e4af;
+  border: 3px solid #232526;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px #0003;
+  z-index: 2;
+}
+@media (max-width: 900px) {
+  .practicum-content {
+    padding: 24px 8px;
+  }
+  .practicum-header h2 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 600px) {
+  .practicum-timeline {
+    padding-left: 18px;
+  }
+  .practicum-timeline-dot {
+    left: -18px;
+    width: 12px;
+    height: 12px;
+  }
+  .practicum-timeline-line {
+    left: 7px;
+    width: 3px;
+  }
+}
