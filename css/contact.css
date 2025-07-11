@@ -3,7 +3,7 @@ section#contact {
     background: linear-gradient(120deg, #232526 0%, #414345 100%);
     margin-top: 0%;
     margin-bottom: 0;
-    padding: 0 80px 0 80px;
+    padding: 40px 8vw 40px 8vw;
     border-radius: 0;
     transition: background 0.3s;
     width: 100vw;
@@ -13,6 +13,11 @@ section#contact {
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
+}
+@media (max-width: 900px) {
+    section#contact {
+        padding: 44px 2vw 32px 2vw;
+    }
 }
 
 /* Contact Section Layout Enhancements */
@@ -163,4 +168,17 @@ section#contact {
     margin: 10px 0 0 0;
     font-weight: 400;
     letter-spacing: 0.2px;
+}
+
+/* Contact Title Styles */
+.contact-title {
+  font-size: 2.5rem;
+  color: #73e4af;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  margin-bottom: 8px;
+  background: linear-gradient(90deg, #ffffff 0%, #ffffff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
