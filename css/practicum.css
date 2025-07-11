@@ -202,6 +202,17 @@
   box-shadow: 0 2px 16px #0002;
   padding: 18px 24px;
 }
+.practicum-slideshow:hover {
+  box-shadow: 0 6px 32px #73e4af55, 0 2px 16px #0002;
+  transform: scale(1.025) translateY(-4px);
+  transition: box-shadow 0.35s cubic-bezier(0.4,0,0.2,1), transform 0.35s cubic-bezier(0.4,0,0.2,1);
+}
+.practicum-slideshow-inner img.practicum-slide {
+  transition: filter 0.35s cubic-bezier(0.4,0,0.2,1);
+}
+.practicum-slideshow:hover .practicum-slide.active {
+  filter: brightness(1.08) saturate(1.15) drop-shadow(0 0 16px #73e4af44);
+}
 @media (max-width: 900px) {
   .practicum-content {
     padding: 24px 8px;
